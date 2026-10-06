@@ -1,6 +1,8 @@
 package com.example.projekt3ptgr2;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,5 +22,12 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+    }
+
+    public void sprawdzOK(View view) {
+        Toast.makeText(MainActivity.this,
+                "ten kolor nalezy do flagi polski nie klikaj go",
+                Toast.LENGTH_SHORT)
+                .show();
     }
 }

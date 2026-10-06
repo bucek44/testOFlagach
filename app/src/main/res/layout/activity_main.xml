@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#34186A"
-
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <!--
@@ -47,7 +47,10 @@
             android:layout_weight="1"
             android:backgroundTint="@color/white"
             android:layout_margin="8dp"
+            android:onClick="sprawdzOK"
             android:text="" />
+<!--                android:onClick=""  == wiocha
+    -->
 
         <Button
             android:id="@+id/button3"
@@ -71,6 +74,7 @@
             android:layout_weight="1"
             android:backgroundTint="#ff002b"
             android:layout_margin="8dp"
+            android:onClick="sprawdzOK"
             android:text=""
             />
 
@@ -94,3 +98,7 @@
     </LinearLayout>
 
 </LinearLayout>
+
+
+
+
