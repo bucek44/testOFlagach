@@ -17,14 +17,18 @@
      wrap_content - rozmiar zawortosci dostosowany
     -->
     <TextView
+        android:id="@+id/textViewPytanie"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:textSize="32sp"
         android:layout_margin="16dp"
         android:padding="8dp"
         android:textColor="#CFBEFF"
         android:background="#3F0E66"
-        android:text="wybierz kolory które nie ma w fladze polski" />
+        android:text="wybierz kolory które nie ma w fladze polski"
+
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,6 +42,7 @@
             android:layout_weight="1"
             android:backgroundTint="#FFC107"
             android:layout_margin="8dp"
+            android:onClick="sprawdzUkryj"
             android:text="" />
 
         <Button
@@ -59,6 +64,7 @@
             android:layout_weight="1"
             android:backgroundTint="#4CAF50"
             android:layout_margin="8dp"
+            android:onClick="sprawdzUkryj"
             android:text="" />
     </LinearLayout>
 
@@ -85,6 +91,8 @@
             android:layout_weight="1"
             android:backgroundTint="#1e19af"
             android:layout_margin="8dp"
+            android:onClick="sprawdzUkryj"
+
             android:text="" />
 
         <Button
@@ -94,6 +102,8 @@
             android:layout_weight="1"
             android:backgroundTint="#af25a0"
             android:layout_margin="8dp"
+            android:onClick="sprawdzUkryj"
+
             android:text="" />
     </LinearLayout>
 
