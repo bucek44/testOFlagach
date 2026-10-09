@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">projekt3ptGr2</string>
+    <string name="polecenie">wybierz kolory które nie ma w fladze polski</string>
+    <string name="ostzrenie">ten kolor jest we fladze polski</string>
+    <string name="posdumowanie">brawo to jest flaga polski</string>
+
+
 </resources>

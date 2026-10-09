@@ -26,7 +26,7 @@
         android:padding="8dp"
         android:textColor="#CFBEFF"
         android:background="#3F0E66"
-        android:text="wybierz kolory które nie ma w fladze polski"
+        android:text="@string/polecenie"
 
         />
 
